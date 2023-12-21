@@ -8,7 +8,7 @@ def index(request):
     return HttpResponse("Index page")
 
 def hello(request, username):
-    return HttpResponse('<h2>Hello world %s</h2>' % username)
+    return HttpResponse('<h2>Hello world... %s</h2>' % username)
 
 def about(request):
     return HttpResponse('About')
