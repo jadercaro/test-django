@@ -9,6 +9,7 @@ urlpatterns = [
     path('about/', views.about),
     path('hello/<str:username>',views.hello),
     path('projects/', views.projects),
-    path('tasks/', views.tasks)
+    path('tasks/', views.tasks),
+    path('createTask/', views.create_task)
 
 ]
