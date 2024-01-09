@@ -1,5 +1,5 @@
 body{
-    background: #202020;
+    background: #2e142e;
     color: whitesmoke;
 }
 
@@ -13,6 +13,28 @@ body{
     justify-content: space-between;
 }
 
+.navbar ul li{
+    list-style: none;
+}
+
 .navbar ul li a{
     color: rgb(156, 130, 80);
+    text-decoration: none;
+
 }
+ .navbar ul li a:hover{
+    color:rgb(131, 131, 15)
+ }
+
+ .container{
+    max-width: 1200px;
+    background: #421e42;
+    margin: auto;
+ }
+
+ .card{
+    background: rgb(90, 0, 90);
+    color: rgb(221, 221, 158);
+    margin-bottom: 2px;
+    padding: 5px 5px;
+ }

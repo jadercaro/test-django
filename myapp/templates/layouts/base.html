@@ -9,7 +9,7 @@
     <link rel="stylesheet", href="{% static '/styles/main.css'%}">
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="navbar container">
         <ul>
             <li>
                 <a href="/">Home</a>
@@ -32,7 +32,9 @@
         </ul>
     </nav>
     
-    {% block content %}
-    {% endblock %}   
+    <main class="container">
+        {% block content %}
+        {% endblock %} 
+    </main>  
 </body>
 </html>
