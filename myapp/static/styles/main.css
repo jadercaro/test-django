@@ -38,3 +38,10 @@ body{
     margin-bottom: 2px;
     padding: 5px 5px;
  }
+
+ .input{
+    background: rgb(153, 153, 8);
+    padding: 5px;
+    text-align: center;
+    display: block;
+ }

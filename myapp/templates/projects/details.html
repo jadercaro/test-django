@@ -8,7 +8,9 @@
 {% for task in tasks %}
 
 <div class = 'card'> 
+    <a href="{% url 'projectDetails' project.id %}">
     <h3>{{task.title}} </h3>
+    </a>
 </div>
 
 {% endfor %}
